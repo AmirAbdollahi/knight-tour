@@ -23,7 +23,6 @@ To run the Knight's Tour program:
    ```bash
    git clone https://github.com/AmirAbdollahi/knight-tour.git
    ```
-
 
 2. **Open the Solution**:
 
