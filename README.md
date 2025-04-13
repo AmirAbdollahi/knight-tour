@@ -58,8 +58,6 @@ These arrays represent the relative x and y changes for each of the knight’s 8
 - `horizontal[0] = 2` and `vertical[0] = -1` means moving two steps right and one step up.
 - Each index corresponds to a specific knight move. Indexes 0 through 7 cover all the move patterns.
 
-- ![image](https://github.com/user-attachments/assets/f83e921a-9dc4-43f6-a176-b8282b25fe23)
-
 ### Board Representation
 
 The chessboard is represented as a 2D array:
