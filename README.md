@@ -14,32 +14,6 @@ The Knight's Tour is a classic problem in computer science and mathematics, wher
 
 ![image](https://github.com/user-attachments/assets/94d4b22d-8415-41bf-b5cf-de76001d3ef1)
 
-## Getting Started
-
-To run the Knight's Tour program:
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/AmirAbdollahi/knight-tour.git
-   ```
-
-2. **Open the Solution**:
-
-   Navigate to the cloned directory and open `Knight Tour.sln` using Visual Studio or your preferred C# development environment.
-
-3. **Build the Solution**:
-
-   Compile the project to restore dependencies and build the executable.
-
-4. **Run the Program**:
-
-   Execute the program within your development environment or run the compiled executable from the command line.
-
-## Usage
-
-Upon running the program, it will prompt you to enter the dimensions of the chessboard and the starting position of the knight. The program will then attempt to find a solution to the Knight's Tour problem using the backtracking algorithm.
-
 ## Technical Explanation
 
 ### How the Algorithm Works
@@ -71,6 +45,33 @@ Each cell on the board stores the move number when it was visited by the knight.
 ### Move Selection
 
 For each position, the algorithm checks all possible knight moves using the `horizontal` and `vertical` arrays and selects the move that leads to the cell with the fewest onward options — that's Warnsdorff’s rule in action.
+
+
+## Getting Started
+
+To run the Knight's Tour program:
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/AmirAbdollahi/knight-tour.git
+   ```
+
+2. **Open the Solution**:
+
+   Navigate to the cloned directory and open `Knight Tour.sln` using Visual Studio or your preferred C# development environment.
+
+3. **Build the Solution**:
+
+   Compile the project to restore dependencies and build the executable.
+
+4. **Run the Program**:
+
+   Execute the program within your development environment or run the compiled executable from the command line.
+
+## Usage
+
+Upon running the program, it will prompt you to enter the dimensions of the chessboard and the starting position of the knight. The program will then attempt to find a solution to the Knight's Tour problem using the backtracking algorithm.
 
 ## License
 
