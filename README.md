@@ -40,6 +40,40 @@ To run the Knight's Tour program:
 
 Upon running the program, it will prompt you to enter the dimensions of the chessboard and the starting position of the knight. The program will then attempt to find a solution to the Knight's Tour problem using the backtracking algorithm.
 
+## Technical Explanation
+
+### How the Algorithm Works
+
+The knight moves in an L-shape: two squares in one direction and then one square perpendicular to that. There are 8 possible moves from any position on the board.
+
+To simplify and generalize the movement logic, two arrays are used:
+
+```csharp
+int[] horizontal = { 2, 1, -1, -2, -2, -1, 1, 2 };
+int[] vertical =   { -1, -2, -2, -1, 1, 2, 2, 1 };
+```
+
+These arrays represent the relative x and y changes for each of the knight’s 8 possible moves. For example:
+
+- `horizontal[0] = 2` and `vertical[0] = -1` means moving two steps right and one step up.
+- Each index corresponds to a specific knight move. Indexes 0 through 7 cover all the move patterns.
+
+- ![image](https://github.com/user-attachments/assets/f83e921a-9dc4-43f6-a176-b8282b25fe23)
+
+### Board Representation
+
+The chessboard is represented as a 2D array:
+
+```csharp
+int[,] board = new int[8, 8];
+```
+
+Each cell on the board stores the move number when it was visited by the knight. A value of `false` means the cell has not yet been visited.
+
+### Move Selection
+
+For each position, the algorithm checks all possible knight moves using the `horizontal` and `vertical` arrays and selects the move that leads to the cell with the fewest onward options — that's Warnsdorff’s rule in action.
+
 ## License
 
 This project is open-source and available under the MIT License.
