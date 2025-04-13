@@ -1,6 +1,6 @@
 # Knight's Tour Problem
 
-The Knight's Tour is a classic problem in computer science and mathematics, where the objective is to move a knight across a chessboard such that it visits every square exactly once. This repository offers an implementation of this problem in C#, utilizing the backtracking algorithm to find a solution.
+The Knight's Tour is a classic problem in computer science and mathematics, where the objective is to move a knight across a chessboard such that it visits every square exactly once. This repository offers an implementation of this problem in C#, utilizing the backtracking algorithm to find a solution.
 
 ## Features
 
@@ -37,8 +37,8 @@ To run the Knight's Tour program:
 
 ## Usage
 
-Upon running the program, it will prompt you to enter the dimensions of the chessboard and the starting position of the knight. The program will then attempt to find a solution to the Knight's Tour problem using the backtracking algorithm.
+Upon running the program, it will prompt you to enter the dimensions of the chessboard and the starting position of the knight. The program will then attempt to find a solution to the Knight's Tour problem using the backtracking algorithm.
 
 ## License
 
-This project is open-source and available under the MIT License. 
+This project is open-source and available under the MIT License.
