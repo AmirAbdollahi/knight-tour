@@ -10,6 +10,8 @@ The Knight's Tour is a classic problem in computer science and mathematics, wher
 - **Chessboard Size Flexibility**: Allows users to define the dimensions of the chessboard, supporting various sizes beyond the standard 8x8.
 - **Customizable Starting Position**: Enables users to set the knight's initial position on the board.
 
+## Screenshots
+
 ![image](https://github.com/user-attachments/assets/7b7c1feb-d612-4625-8746-f70b5d2539f9)
 
 ![image](https://github.com/user-attachments/assets/94d4b22d-8415-41bf-b5cf-de76001d3ef1)
